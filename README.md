@@ -1,9 +1,11 @@
 [![Build Status](https://travis-ci.org/dogecoin/libdohj.svg?branch=master)](https://travis-ci.org/dogecoin/libdohj)
 
-### Welcome to libdohj
+### Welcome to libding
 
-The libdohj library is a lightweight wrapper library around the bitcoinj Java library,
-enabling support for Dogecoin (pull requests for support for other altcoins would
+Unfinished
+
+The libding library is a lightweight wrapper library around the bitcoinj Java library,
+enabling support for Dingocoin (pull requests for support for other altcoins would
 be welcomed).
 
 ### Technologies
