@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.10'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+
+    group = 'com.dogecoin'
+
+    // Reproducible builds
+    tasks.withType(AbstractArchiveTask) {
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+    }
+}
